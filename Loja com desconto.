@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+	
+	float val;
+	
+	printf("Digite o valor do produto\n");
+	scanf("%f", &val);
+	
+	if (val < 50)
+	printf("Produto nao teve desconto, valor total R$: %.2f\n", val);
+		
+	else if (val < 100){
+		val = val * 0.9;
+	printf ("Seu produto teve 10 porcento de desconto R$:%.2f\n", val);
+	}
+	
+	else if (val >= 100){
+		val = val * 0.8;
+	printf ("Seu produto teve 20 porcento de desconto R$: %.2f\n", val);
+	}
+}
