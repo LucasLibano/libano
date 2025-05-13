@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main () {
+	
+	int anos;
+	
+	printf("Quantos anos voce tem?");
+	scanf("%i", &anos);
+	
+	int resultado = anos * 12;
+	
+	printf("Meses vividos e: %i", resultado);
+}
