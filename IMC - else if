@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+int main(){
+	float altura,peso;
+	
+	printf("Digite sua altura\n");
+	scanf("%f", &altura);
+	printf("Digite seu peso\n");
+	scanf("%f", &peso);
+	
+	float resultado = peso/(altura*altura);
+	
+	if (resultado <= 18.5) {
+	printf("magreza\n");
+	}
+	
+	
+	else if (resultado <= 24.9){
+	printf("normal\n");
+
+	}
+	
+
+	else if (resultado <= 29.9)	{
+	printf("sobrepeso\n");
+
+	}
+	
+	else if (resultado <= 39.9){
+	printf ("obsidade\n");	
+		}
+	else if (resultado > 40){
+	printf("Obesidade grave\n");
+}
+
+}
