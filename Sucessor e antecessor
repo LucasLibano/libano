@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main () {
+	
+	int num1;
+	
+	printf("Digite um numero\n");
+	scanf("%i", &num1);
+	
+	int resultado = num1-1;
+	int resultado2 = num1+1;
+	
+	printf("O antecessor do seu numero e:%i\n", resultado);
+	printf("O sucessor do seu numero e:%i", resultado2);
+	
+}
