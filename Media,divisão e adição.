@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main() {
+	
+	float num1;
+	float num2;
+	float num3;
+	float resultado, resultado2;
+	
+	printf("Digite uma nota\n");
+	scanf("%f", &num1);
+	
+	printf("Digite outra nota\n");
+	scanf("%f", &num2);
+	
+	printf("Digite a ultima nota\n");
+	scanf("%f", &num3);
+	
+	resultado = (num1 + num2 + num3) / 3;
+	resultado2 = (resultado / 2 ) + 4;
+	//float resultado2 = resultado / 2;
+	//float resultado3 = resultado2 + 4;
+	
+	printf("A nota final e: %f", resultado2);
+	
+	}
