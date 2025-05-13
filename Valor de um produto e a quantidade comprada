@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main () {
+	
+	float prod;
+	int quant;
+	
+	printf("Qual o valor do produto?\n");
+	scanf("%f", &prod);
+	printf("Qual a quantidade?\n");
+	scanf("%i", &quant);
+	
+	float resultado = prod * quant;
+	
+	printf("O total para pagar e: %.2f", resultado);
+}
