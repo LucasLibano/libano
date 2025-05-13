@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+	
+	float sal;
+	
+	printf("Qual o seu salario mensal?\n");
+	scanf("%f", &sal);
+	
+	float resultado = sal * 12;
+	
+	printf("O seu salario anual e:%.3f", resultado);
+	
+}
